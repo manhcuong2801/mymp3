@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        AnhXa();
+        Reference();
         AddSong();
 
         animation = AnimationUtils.loadAnimation(this, R.anim.disc_rotate);
@@ -139,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
         arraySong.add(new Song("Siêu Nhân Cuồng Phong", R.raw.ninjahuricane));
     }
 
-    private void AnhXa() {
+    private void Reference() {
         // Create buttons
         txtTimeSong = (TextView) findViewById(R.id.textViewTimeSong);
         txtTimeTotal = (TextView) findViewById(R.id.textViewTimeTotal);
